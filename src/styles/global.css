@@ -1,0 +1,31 @@
+/* RESET EVERYTHING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL PAGE SETUP */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #020b2a 0%, #010616 45%, #000000 100%);
+  color: white;
+}
+
+/* RESET EVERYTHING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL PAGE SETUP */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #020b2a 0%, #010616 45%, #000000 100%);
+  color: white;
+}

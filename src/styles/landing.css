@@ -1,0 +1,179 @@
+.page-wrapper {
+  height: 100vh; /* full viewport */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  padding: 0 16px;
+}
+
+.card {
+  width: 600px;
+  max-width: 90%;
+  padding: 60px;
+  border-radius: 24px;
+  text-align: center;
+
+  /* Dark blue glass with blur */
+  background: rgba(6, 15, 40, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  /* Glowing shadow */
+  box-shadow:
+    0 0 30px rgba(30, 70, 140, 0.7),
+    0 0 60px rgba(40, 90, 180, 0.6),
+    inset 0 0 40px rgba(255, 255, 255, 0.04);
+
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 30px rgba(30, 70, 140, 0.6),
+      0 0 60px rgba(40, 90, 180, 0.5),
+      inset 0 0 40px rgba(255, 255, 255, 0.03);
+  }
+  50% {
+    box-shadow:
+      0 0 45px rgba(60, 120, 220, 0.9),
+      0 0 90px rgba(80, 150, 255, 0.8),
+      inset 0 0 50px rgba(255, 255, 255, 0.05);
+  }
+}
+
+.card-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+}
+
+.card-subtitle {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #b5b5b5;
+}
+
+.card-button {
+  margin-top: 32px;
+  padding: 14px 36px;
+  border-radius: 40px;
+  border: none;
+
+  /* Blue gradient button */
+  background: linear-gradient(135deg, #071b3a, #0a2555);
+
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+
+  box-shadow: 0 0 30px rgba(60, 120, 220, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 50px rgba(80, 150, 255, 1);
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 40px 24px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+}
+
+.page-wrapper {
+  height: 100vh; /* full viewport */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  padding: 0 16px;
+}
+
+.card {
+  width: 600px;
+  max-width: 90%;
+  padding: 60px;
+  border-radius: 24px;
+  text-align: center;
+
+  /* Dark blue glass with blur */
+  background: rgba(6, 15, 40, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  /* Glowing shadow */
+  box-shadow:
+    0 0 30px rgba(30, 70, 140, 0.7),
+    0 0 60px rgba(40, 90, 180, 0.6),
+    inset 0 0 40px rgba(255, 255, 255, 0.04);
+
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 30px rgba(30, 70, 140, 0.6),
+      0 0 60px rgba(40, 90, 180, 0.5),
+      inset 0 0 40px rgba(255, 255, 255, 0.03);
+  }
+  50% {
+    box-shadow:
+      0 0 45px rgba(60, 120, 220, 0.9),
+      0 0 90px rgba(80, 150, 255, 0.8),
+      inset 0 0 50px rgba(255, 255, 255, 0.05);
+  }
+}
+
+.card-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+}
+
+.card-subtitle {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #b5b5b5;
+}
+
+.card-button {
+  margin-top: 32px;
+  padding: 14px 36px;
+  border-radius: 40px;
+  border: none;
+
+  /* Blue gradient button */
+  background: linear-gradient(135deg, #071b3a, #0a2555);
+
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+
+  box-shadow: 0 0 30px rgba(60, 120, 220, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 50px rgba(80, 150, 255, 1);
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 40px 24px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+}
